@@ -6,6 +6,6 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 router.post('/', function(req, res, next) {
-  res.render('apituloenvias');
+  res.render('apituloEnvias');
 });
 module.exports = router;
