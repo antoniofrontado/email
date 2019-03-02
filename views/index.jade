@@ -1,0 +1,22 @@
+extends layout
+
+block content
+
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Deseas saber como lo hacemos suscribete.
+
+        // register form
+        form(method="POST" action="/" name="form1")
+          p Nombre
+          input(type="text", placeholder=" Nombre" name="nombre")
+          p Apellido
+          input(type="text", placeholder="Apellido" name="apellido")
+          input(type="text", placeholder="name@email.com" name="correo")
+          input(type="text", placeholder="sexo" name="sexo")
+          input(type="text", placeholder="educacion" name="educacion")
+          input(type="text", placeholder="laboral" name="laboral")
+          input(type="text", placeholder="pais" name="pais")
+
+          button.btn.btn-primary(type="submit") suscribete
